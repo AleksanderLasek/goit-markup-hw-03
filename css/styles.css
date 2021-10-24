@@ -291,14 +291,22 @@
   left: 92px;
 }
 
-.page-footer {
+.page-footer,
+.page-footer-portfolio {
   display: flex;
   position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 2097px;
   background: #2f303a;
+}
+
+.page-footer {
+  top: 2097px;
+}
+
+.page-footer-portfolio {
+  top: 1628px;
 }
 
 .logo-footer {
@@ -357,11 +365,50 @@
   line-height: 162%;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   cursor: pointer;
+  background: #f5f4fa;
+  border-width: 0;
+  border-radius: 4px;
+}
+
+.button-list li {
+  display: flex;
+  justify-content: center;
+}
+
+.all,
+.pages,
+.app,
+.design,
+.marketing {
+  position: absolute;
+  height: 38px;
+  top: 174px;
+}
+
+.all {
+  width: 121px;
+  left: 510px;
+}
+
+.pages {
+  width: 93px;
+  left: 639px;
+}
+
+.app {
+  width: 114px;
+  left: 740px;
+}
+
+.design {
+  width: 91px;
+  left: 862px;
+}
+
+.marketing {
+  width: 121px;
+  left: 961px;
 }
 
 .button:hover {
@@ -390,7 +437,102 @@
   color: #212121;
 }
 
-/* ================================================================= */
+.projects-list {
+  display: flex;
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8,
+.project9 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project1 {
+  left: 215px;
+  top: 262px;
+}
+
+.project2 {
+  left: 615px;
+  top: 262px;
+}
+
+.project3 {
+  left: 1015px;
+  top: 262px;
+}
+
+.project4 {
+  left: 215px;
+  top: 696px;
+}
+
+.project5 {
+  left: 615px;
+  top: 696px;
+}
+
+.project6 {
+  left: 1015px;
+  top: 696px;
+}
+
+.project7 {
+  left: 215px;
+  top: 1130px;
+}
+
+.project8 {
+  left: 615px;
+  top: 1130px;
+}
+
+.project9 {
+  left: 1015px;
+  top: 1130px;
+}
+
+.project1 .project-title,
+.project2 .project-title,
+.project3 .project-title,
+.project4 .project-title,
+.project5 .project-title,
+.project6 .project-title,
+.project7 .project-title,
+.project8 .project-title,
+.project9 .project-title {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+}
+
+.project1 .project-description,
+.project2 .project-description,
+.project3 .project-description,
+.project4 .project-description,
+.project5 .project-description,
+.project6 .project-description,
+.project7 .project-description,
+.project8 .project-description,
+.project9 .project-description {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+}
 
 * {
   margin: 0;
@@ -432,42 +574,37 @@
   top: 24px;
 }
 
-.agency {
+.agency,
+.portfolio,
+.contact,
+.menu-mail,
+.menu-tel {
   position: absolute;
-  width: 53px;
   height: 16px;
-  left: 453px;
   top: 32px;
+}
+
+.agency {
+  width: 53px;
+  left: 453px;
 }
 
 .portfolio {
-  position: absolute;
   width: 58px;
-  height: 16px;
   left: 552px;
-  top: 32px;
 }
 
 .contact {
-  position: absolute;
   width: 51px;
-  height: 16px;
   left: 656px;
-  top: 32px;
 }
 
 .menu-mail {
-  position: absolute;
   width: 135px;
-  height: 16px;
   left: 1078px;
-  top: 32px;
 }
 
 .menu-tel {
-  position: absolute;
   width: 110px;
-  height: 16px;
   left: 1263px;
-  top: 32px;
 }
