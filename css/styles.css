@@ -203,6 +203,10 @@
   white-space: nowrap;
 }
 
+img {
+  vertical-align: middle;
+}
+
 .work img {
   /* position: absolute; */
   width: 370px;
@@ -289,6 +293,22 @@
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+}
+
+.projects-list-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.project-description {
+  margin-bottom: 20px;
 }
 
 .name {
@@ -410,6 +430,15 @@
   justify-content: center;
 }
 
+.button-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  width: 572px;
+  height: 54px;
+}
+
 .all,
 .pages,
 .app,
@@ -472,7 +501,15 @@
 }
 
 .projects-list {
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  height: 1272px;
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  padding: 0px;
+  align-content: space-between;
 }
 
 .project1,
