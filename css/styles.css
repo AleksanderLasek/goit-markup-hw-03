@@ -71,11 +71,7 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: #2f303a;
-  /* position: absolute; */
   width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 200px;
   margin-bottom: 30px;
 }
 
@@ -94,11 +90,8 @@
   border-radius: 4px;
   border-width: 0;
   cursor: pointer;
-  /* position: absolute; */
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 350px;
 }
 
 .header .container {
@@ -107,11 +100,7 @@
 
 .header {
   display: flex;
-  /* position: absolute; */
-  /* width: 100%; */
   height: 600px;
-  /* left: 0px; */
-  /* top: 80px; */
   background: #2f303a;
   flex-direction: column;
   justify-content: center;
@@ -124,10 +113,6 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* position: absolute; */
-  width: 270px;
-  height: 16px;
-  top: 774px;
   margin-bottom: 10px;
 }
 
@@ -136,45 +121,15 @@
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #757575;
-  /* position: absolute; */
-  width: 270px;
-  height: 75px;
-  top: 800px;
-}
-
-.strengths {
-  width: 1170px;
 }
 
 .strengths-list {
   display: flex;
   width: 1170px;
-  justify-content: space-between;
   padding: 0;
 }
 
-.strengths h3:nth-child(1),
-.strengths p:nth-child(2) {
-  left: 215px;
-}
-
-.strengths h3:nth-child(3),
-.strengths p:nth-child(4) {
-  left: 515px;
-}
-
-.strengths h3:nth-child(5),
-.strengths p:nth-child(6) {
-  left: 815px;
-}
-
-.strengths h3:nth-child(7),
-.strengths p:nth-child(8) {
-  left: 1115px;
-}
-
 .work {
-  display: flex;
   flex-direction: column;
 }
 
@@ -195,35 +150,12 @@
 }
 
 .work h2 {
-  /* position: absolute; */
-  width: 352px;
   height: 42px;
-  left: 624px;
-  top: 969px;
   white-space: nowrap;
 }
 
 img {
   vertical-align: middle;
-}
-
-.work img {
-  /* position: absolute; */
-  width: 370px;
-  height: 294px;
-  top: 1061px;
-}
-
-.work img:nth-child(2) {
-  left: 215px;
-}
-
-.work img:nth-child(3) {
-  left: 615px;
-}
-
-.work img:nth-child(4) {
-  left: 1015px;
 }
 
 .team .container {
@@ -257,12 +189,6 @@ img {
 }
 
 .team {
-  display: flex;
-  /* position: absolute; */
-  /* width: 1600px; */
-  height: 648px;
-  left: 0px;
-  top: 1449px;
   background: #f5f4fa;
 }
 
@@ -277,12 +203,8 @@ img {
 .team-card2,
 .team-card3,
 .team-card4 {
-  /* position: absolute; */
-  width: 270px;
   height: 368px;
-  top: 186px;
   background: #ffffff;
-  /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -319,9 +241,7 @@ img {
 .team-card2 .role,
 .team-card3 .role,
 .team-card4 .role {
-  /* position: absolute; */
   height: 19px;
-  top: 319px;
   white-space: nowrap;
 }
 
@@ -330,6 +250,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  width: 1170px;
 }
 
 .address-list {
@@ -348,52 +269,28 @@ img {
 .page-footer,
 .page-footer-portfolio {
   display: flex;
-  /* position: absolute; */
-  /* width: 1600px; */
   height: 252px;
-  left: 0px;
   background: #2f303a;
-}
-
-.page-footer {
-  top: 2097px;
-}
-
-.page-footer-portfolio {
-  top: 1628px;
 }
 
 .logo-footer {
   width: 145px;
   height: 31px;
-  top: 60px;
-}
-
-.address-list li,
-.logo-footer {
-  /* position: absolute; */
-  left: 215px;
 }
 
 .address-list li:nth-child(1) {
   width: 246px;
   height: 21px;
-
-  top: 111px;
 }
 
 .address-list li:nth-child(2) {
   width: 231px;
   height: 21px;
-
-  top: 141px;
 }
 
 .address-list li:nth-child(3) {
   width: 231px;
   height: 21px;
-
-  top: 171px;
 }
 
 .logo-footer,
@@ -425,15 +322,9 @@ img {
   border-radius: 4px;
 }
 
-.button-list li {
-  display: flex;
-  justify-content: center;
-}
-
 .button-list {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   padding: 0;
   width: 572px;
   height: 54px;
@@ -444,34 +335,27 @@ img {
 .app,
 .design,
 .marketing {
-  /* position: absolute; */
   height: 38px;
-  top: 174px;
 }
 
 .all {
   width: 121px;
-  left: 510px;
 }
 
 .pages {
   width: 93px;
-  left: 639px;
 }
 
 .app {
   width: 114px;
-  left: 740px;
 }
 
 .design {
   width: 91px;
-  left: 862px;
 }
 
 .marketing {
   width: 121px;
-  left: 961px;
 }
 
 .button:hover {
@@ -521,56 +405,10 @@ img {
 .project7,
 .project8,
 .project9 {
-  /* position: absolute; */
   width: 370px;
   height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-}
-
-.project1 {
-  left: 215px;
-  top: 262px;
-}
-
-.project2 {
-  left: 615px;
-  top: 262px;
-}
-
-.project3 {
-  left: 1015px;
-  top: 262px;
-}
-
-.project4 {
-  left: 215px;
-  top: 696px;
-}
-
-.project5 {
-  left: 615px;
-  top: 696px;
-}
-
-.project6 {
-  left: 1015px;
-  top: 696px;
-}
-
-.project7 {
-  left: 215px;
-  top: 1130px;
-}
-
-.project8 {
-  left: 615px;
-  top: 1130px;
-}
-
-.project9 {
-  left: 1015px;
-  top: 1130px;
 }
 
 .project1 .project-title,
@@ -582,11 +420,8 @@ img {
 .project7 .project-title,
 .project8 .project-title,
 .project9 .project-title {
-  /* position: absolute; */
   width: 322px;
   height: 36px;
-  left: 24px;
-  top: 314px;
 }
 
 .project1 .project-description,
@@ -598,11 +433,8 @@ img {
 .project7 .project-description,
 .project8 .project-description,
 .project9 .project-description {
-  /* position: absolute; */
   width: 322px;
   height: 30px;
-  left: 24px;
-  top: 354px;
 }
 
 * {
@@ -618,26 +450,13 @@ img {
   justify-content: center;
 }
 
-/* .container {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-} */
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .menu {
-  /* position: absolute; */
-  /* width: 1600px; */
   height: 80px;
-  left: 0px;
-  top: 0px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -656,19 +475,12 @@ img {
 .menu-contact {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  /* height: 100%; */
   width: 312px;
-  justify-self: end;
-  padding: 0;
 }
 
 .logo {
-  /* position: absolute; */
   width: 145px;
   height: 31px;
-  left: 215px;
-  /* top: 24px; */
 }
 
 .logo-container {
@@ -680,37 +492,22 @@ img {
   width: 1170px;
 }
 
-.agency,
-.portfolio,
-.contact,
-.menu-mail,
-.menu-tel {
-  /* position: absolute; */
-  /* height: 16px;
-  top: 32px; */
-}
-
 .agency {
   width: 53px;
-  left: 453px;
 }
 
 .portfolio {
   width: 58px;
-  left: 552px;
 }
 
 .contact {
   width: 51px;
-  left: 656px;
 }
 
 .menu-mail {
   width: 135px;
-  left: 1078px;
 }
 
 .menu-tel {
   width: 110px;
-  left: 1263px;
 }
