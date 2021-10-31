@@ -10,6 +10,7 @@
   font-size: 26px;
   line-height: 70%;
   letter-spacing: 0.03em;
+  padding-top: 6px;
 }
 
 .logo:visited,
@@ -21,7 +22,8 @@
 .address-list,
 .button-list,
 .projects-list,
-.team-list {
+.team-list,
+.strengths-list {
   list-style-type: none;
 }
 
@@ -59,11 +61,12 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: #2f303a;
-  position: absolute;
+  /* position: absolute; */
   width: 696px;
   height: 120px;
   left: 452px;
   top: 200px;
+  margin-bottom: 30px;
 }
 
 .header-button {
@@ -81,22 +84,28 @@
   border-radius: 4px;
   border-width: 0;
   cursor: pointer;
-  position: absolute;
+  /* position: absolute; */
   width: 200px;
   height: 50px;
   left: 700px;
   top: 350px;
 }
 
+.header .container {
+  flex-direction: column;
+}
+
 .header {
   display: flex;
-  position: absolute;
-  width: 1600px;
+  /* position: absolute; */
+  /* width: 100%; */
   height: 600px;
-  left: 0px;
-  top: 80px;
+  /* left: 0px; */
+  /* top: 80px; */
   background: #2f303a;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .strengths h3 {
@@ -105,7 +114,7 @@
   line-height: 36%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  position: absolute;
+  /* position: absolute; */
   width: 270px;
   height: 16px;
   top: 774px;
@@ -116,10 +125,17 @@
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #757575;
-  position: absolute;
+  /* position: absolute; */
   width: 270px;
   height: 75px;
   top: 800px;
+}
+
+.strengths-list {
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+  padding: 0;
 }
 
 .strengths h3:nth-child(1),
@@ -152,7 +168,7 @@
 }
 
 .work h2 {
-  position: absolute;
+  /* position: absolute; */
   width: 352px;
   height: 42px;
   left: 624px;
@@ -161,7 +177,7 @@
 }
 
 .work img {
-  position: absolute;
+  /* position: absolute; */
   width: 370px;
   height: 294px;
   top: 1061px;
@@ -180,7 +196,7 @@
 }
 
 .team h2 {
-  position: absolute;
+  /* position: absolute; */
   width: 210px;
   height: 42px;
   left: 695px;
@@ -207,8 +223,8 @@
 
 .team {
   display: flex;
-  position: absolute;
-  width: 1600px;
+  /* position: absolute; */
+  /* width: 1600px; */
   height: 648px;
   left: 0px;
   top: 1449px;
@@ -223,7 +239,7 @@
 .team-card2,
 .team-card3,
 .team-card4 {
-  position: absolute;
+  /* position: absolute; */
   width: 270px;
   height: 368px;
   top: 186px;
@@ -254,7 +270,7 @@
 .team-card2 .name,
 .team-card3 .name,
 .team-card4 .name {
-  position: absolute;
+  /* position: absolute; */
   width: 72px;
   height: 19px;
   left: 99px;
@@ -266,7 +282,7 @@
 .team-card2 .role,
 .team-card3 .role,
 .team-card4 .role {
-  position: absolute;
+  /* position: absolute; */
   height: 19px;
   top: 319px;
   white-space: nowrap;
@@ -295,8 +311,8 @@
 .page-footer,
 .page-footer-portfolio {
   display: flex;
-  position: absolute;
-  width: 1600px;
+  /* position: absolute; */
+  /* width: 1600px; */
   height: 252px;
   left: 0px;
   background: #2f303a;
@@ -318,7 +334,7 @@
 
 .address-list li,
 .logo-footer {
-  position: absolute;
+  /* position: absolute; */
   left: 215px;
 }
 
@@ -382,7 +398,7 @@
 .app,
 .design,
 .marketing {
-  position: absolute;
+  /* position: absolute; */
   height: 38px;
   top: 174px;
 }
@@ -451,7 +467,7 @@
 .project7,
 .project8,
 .project9 {
-  position: absolute;
+  /* position: absolute; */
   width: 370px;
   height: 404px;
   background: #ffffff;
@@ -512,7 +528,7 @@
 .project7 .project-title,
 .project8 .project-title,
 .project9 .project-title {
-  position: absolute;
+  /* position: absolute; */
   width: 322px;
   height: 36px;
   left: 24px;
@@ -528,7 +544,7 @@
 .project7 .project-description,
 .project8 .project-description,
 .project9 .project-description {
-  position: absolute;
+  /* position: absolute; */
   width: 322px;
   height: 30px;
   left: 24px;
@@ -540,22 +556,30 @@
 }
 
 .container {
-  position: relative;
-  max-width: 1600px;
-  margin: auto;
-  background: #ffffff;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
 }
 
+/* .container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+} */
+
 .section {
-  margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .menu {
-  display: flex;
-  position: absolute;
-  width: 1600px;
+  /* position: absolute; */
+  /* width: 1600px; */
   height: 80px;
   left: 0px;
   top: 0px;
@@ -564,15 +588,40 @@
 
 .menu-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0px;
+  width: 254px;
+}
+
+.menu-nav-container {
+  width: 625px;
+}
+
+.menu-contact {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  /* height: 100%; */
+  width: 295px;
+  justify-self: end;
+  padding: 0;
 }
 
 .logo {
-  position: absolute;
+  /* position: absolute; */
   width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  /* top: 24px; */
+}
+
+.logo-container {
+  width: 238px;
+}
+
+.menu-flex {
+  height: 100%;
 }
 
 .agency,
@@ -580,9 +629,9 @@
 .contact,
 .menu-mail,
 .menu-tel {
-  position: absolute;
-  height: 16px;
-  top: 32px;
+  /* position: absolute; */
+  /* height: 16px;
+  top: 32px; */
 }
 
 .agency {
