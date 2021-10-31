@@ -10,12 +10,22 @@
   font-size: 26px;
   line-height: 70%;
   letter-spacing: 0.03em;
-  padding-top: 6px;
+  margin-bottom: 20px;
 }
 
 .logo:visited,
 .logo-footer:visited {
   color: inherit;
+}
+
+.web,
+.studio {
+  margin-bottom: 20px;
+}
+
+.address-list li {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .menu-nav,
@@ -111,13 +121,14 @@
 .strengths h3 {
   font-weight: bold;
   font-size: 14px;
-  line-height: 36%;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /* position: absolute; */
   width: 270px;
   height: 16px;
   top: 774px;
+  margin-bottom: 10px;
 }
 
 .strengths p {
@@ -129,6 +140,10 @@
   width: 270px;
   height: 75px;
   top: 800px;
+}
+
+.strengths {
+  width: 1170px;
 }
 
 .strengths-list {
@@ -158,6 +173,17 @@
   left: 1115px;
 }
 
+.work {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-photos {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .work h2,
 .team h2 {
   font-weight: bold;
@@ -165,6 +191,7 @@
   line-height: 95%;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .work h2 {
@@ -193,6 +220,10 @@
 
 .work img:nth-child(4) {
   left: 1015px;
+}
+
+.team .container {
+  flex-direction: column;
 }
 
 .team h2 {
@@ -233,6 +264,9 @@
 
 .team-list {
   display: flex;
+  padding: 0;
+  width: 1170px;
+  justify-content: space-between;
 }
 
 .team-card1,
@@ -250,32 +284,15 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card1 {
-  left: 215px;
+.team-card-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.team-card2 {
-  left: 515px;
-}
-
-.team-card3 {
-  left: 815px;
-}
-
-.team-card4 {
-  left: 1115px;
-}
-
-.team-card1 .name,
-.team-card2 .name,
-.team-card3 .name,
-.team-card4 .name {
-  /* position: absolute; */
-  width: 72px;
-  height: 19px;
-  left: 99px;
-  top: 290px;
-  white-space: nowrap;
+.name {
+  margin-bottom: 10px;
 }
 
 .team-card1 .role,
@@ -288,24 +305,24 @@
   white-space: nowrap;
 }
 
-.team-card1 .role {
-  width: 130px;
-  left: 70px;
+.page-footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.team-card2 .role {
-  width: 147px;
-  left: 62px;
+.address-list {
+  padding: 0;
 }
 
-.team-card3 .role {
-  width: 76px;
-  left: 97px;
+.logo-footer {
+  margin-bottom: 60px;
+  padding: 0;
 }
 
-.team-card4 .role {
-  width: 87px;
-  left: 92px;
+.page-footer .container p {
+  margin-bottom: 11px;
 }
 
 .page-footer,
@@ -556,11 +573,12 @@
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   align-items: center;
   padding: 0;
   margin: 0 auto;
+  justify-content: center;
 }
 
 /* .container {
@@ -603,7 +621,7 @@
   justify-content: space-between;
   align-content: center;
   /* height: 100%; */
-  width: 295px;
+  width: 312px;
   justify-self: end;
   padding: 0;
 }
@@ -622,6 +640,7 @@
 
 .menu-flex {
   height: 100%;
+  width: 1170px;
 }
 
 .agency,
