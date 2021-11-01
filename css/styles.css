@@ -129,7 +129,7 @@
   padding: 0;
 }
 
-.work {
+.work .container {
   flex-direction: column;
 }
 
